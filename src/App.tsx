@@ -7,6 +7,7 @@ import Vaults from "@/pages/Vaults";
 import CreateVault from "@/pages/CreateVault";
 import Dashboard from "@/pages/Dashboard";
 import VaultDetails from "@/pages/VaultDetails";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/vaults/:id" element={<VaultDetails />} />
           </Routes>
         </motion.main>
+        <Footer />
         {/* <Toaster /> */}
       </div>
     </Router>
