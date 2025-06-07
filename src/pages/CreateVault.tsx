@@ -11,7 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ArrowLeft } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const CreateVault = () => {
   const [formData, setFormData] = useState({

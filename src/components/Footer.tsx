@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Send } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 export default function Footer () {
     const [email, setEmail] = useState("");
