@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router";
 import { motion } from "framer-motion";
 //import { Toaster } from "@/components/ui/toaster";
 import Navbar from "@/components/Navbar";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
         <Navbar />
         <motion.main
@@ -31,7 +31,7 @@ function App() {
         <Footer />
         {/* <Toaster /> */}
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
